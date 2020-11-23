@@ -1,0 +1,17 @@
+git branch//查看分支
+git branch//创建分支
+git checkout//切换分支
+git checkout -b//创建+切换分支
+git merge//合并某分支到当前分支
+git branch -d//删除分支
+git stash//储存当前的工作
+git stash list//查看存储的工作列表
+git stash apply//恢复到工作区，但是stash内容并不删除,需要使用git stash drop来删除
+git stash pop//恢复的同时把stash的内容也删掉
+git branch -d file//删除分支
+git branch -D file//如果没有合并该file分支，则需要强制删除
+git remote//查看远程库的信息
+git remote -v//显示更详细的信息
+ssh-keygen -t rsa -C 'youremail@example.com'//创建SSH Key
+git rebase -i HEAD~n//将n个commit和并为一个
+
