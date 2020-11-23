@@ -14,4 +14,6 @@ git remote//查看远程库的信息
 git remote -v//显示更详细的信息
 ssh-keygen -t rsa -C 'youremail@example.com'//创建SSH Key
 git rebase -i HEAD~n//将n个commit和并为一个
+测试rebase方法
+
 
